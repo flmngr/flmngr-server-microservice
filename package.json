@@ -14,7 +14,8 @@
   "scripts": {
     "clean": "rm -Rf dist",
     "build": "npm run clean && tsc",
-    "start": "node -r dotenv/config dist/index.js dotenv_config_path=./flmngr.conf dotenv_config_debug=true"
+    "start": "node -r dotenv/config dist/index.js dotenv_config_path=./flmngr.conf dotenv_config_debug=true",
+    "zip": "npm run build && zip -r - dist/* node_modules/* files/* flmngr.conf nginx.conf package.json package-lock.json README.md > ./flmngr-server-microservice.zip"
   },
   "type": "commonjs",
   "dependencies": {

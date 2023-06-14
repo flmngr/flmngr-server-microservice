@@ -1,6 +1,7 @@
 .idea
 node_modules
 dist
+flmngr-server-microservice.zip
 files/*
 !files/Alberta-Canada.jpg
 !files/Arizona.jpg
