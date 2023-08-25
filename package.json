@@ -1,7 +1,7 @@
 {
   "name": "@flmngr/flmngr-server-microservice",
   "description": "The build of Flmngr backend for using as a standalone microservice (based on Node Express version)",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "private": true,
   "main": "./dist/index.js",
   "author": {
@@ -19,7 +19,7 @@
   },
   "type": "commonjs",
   "dependencies": {
-    "@flmngr/flmngr-server-node-express": "^1.5.2",
+    "@flmngr/flmngr-server-node-express": "^1.5.3",
     "dotenv": "^16.1.3",
     "express": "^4"
   },
