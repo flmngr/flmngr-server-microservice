@@ -2,7 +2,7 @@
 
 # Flmngr standalone microservice
 
-> Standalone microservice based on Node Express frameword, which is ready to run and handle requests from Flmngr file manager
+> Standalone microservice based on Node Express framework, which is ready to run and handle requests from Flmngr file manager
 
 [![Flmngr file manager screenshot](https://flmngr.com/img/browsing.jpg)](https://flmngr.com)
 
